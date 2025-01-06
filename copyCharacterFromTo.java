@@ -1,4 +1,4 @@
-public class ccopyCharacterFromTo {
+public class copyCharacterFromTo {
 
     public static void copyCharacter(char[] array, int fromIndex, int toIndex) {
         // Check if the indices are within bounds

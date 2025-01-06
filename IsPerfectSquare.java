@@ -7,8 +7,11 @@ public class IsPerfectSquare {
             return 1; // 0 is a perfect square (0 * 0 = 0)
 
         int i = 0;
+
         while (i * i <= n) {
+            System.out.println(i + ":" + n / 2);
             if (i * i == n) {
+
                 return 1; // n is a perfect square
             }
             i++;
@@ -21,9 +24,9 @@ public class IsPerfectSquare {
         System.out.println(isSquare(n)); // Output: 1 (true)
 
         int m = 0;
-        System.out.println(isSquare(m)); // Output: 1 (true)
+        // System.out.println(isSquare(m)); // Output: 1 (true)
 
         int k = 26;
-        System.out.println(isSquare(k)); // Output: 0 (false)
+        // System.out.println(isSquare(k)); // Output: 0 (false)
     }
 }

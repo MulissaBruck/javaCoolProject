@@ -1,0 +1,9 @@
+{
+    "java.home": "C:\\path\\to\\jdk",
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-11",
+            "path": "C:\\path\\to\\jdk-11"
+        }
+    ]
+}

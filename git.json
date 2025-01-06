@@ -1,0 +1,40 @@
+[
+    {
+       "p_rel_url": "MulissaBruck/Adventure-Works-Data-Engineering-project/refs/heads/main/data/AdventureWorks%20Returns%20Data.csv",
+       "p_sink_folder": "AdventureWorks_Returns",
+       "p_file_name": "AdventureWorks_Returns.csv"
+    },
+
+         
+    {
+       "p_rel_url": "MulissaBruck/Adventure-Works-Data-Engineering-project/refs/heads/main/data/AdventureWorks%20Calendar%20Lookup.csv",
+       "p_sink_folder": "AdventureWorks_calender",
+       "p_file_name": "AdventureWorks_calender.csv"
+    },
+    {
+       "p_rel_url": "MulissaBruck/Adventure-Works-Data-Engineering-project/refs/heads/main/data/AdventureWorks%20Customer%20Lookup.csv ",        
+       "p_sink_folder": "AdventureWorks_Customer",
+       "p_file_name": "AdventureWorks_Customer.csv"
+    },
+    {
+       "p_rel_url": "MulissaBruck/Adventure-Works-Data-Engineering-project/refs/heads/main/data/AdventureWorks%20Product%20Categories%20Lookup.csv",
+       "p_sink_folder": "AdventureWorks_Categories",
+       "p_file_name": "AdventureWorks_Categories.csv"
+    },
+    {
+       "p_rel_url": "MulissaBruck/Adventure-Works-Data-Engineering-project/refs/heads/main/data/AdventureWorks%20Product%20Lookup.csv",
+       "p_sink_folder": "AdventureWorks_Product",
+       "p_file_name": "AdventureWorks_Product.csv"
+    },
+    {
+       "p_rel_url": "MulissaBruck/Adventure-Works-Data-Engineering-project/refs/heads/main/data/AdventureWorks%20Product%20Subcategories%20Lookup.csv",
+       "p_sink_folder": "AdventureWorks_Subcategories",
+       "p_file_name": "AdventureWorks_Subcategories.csv"
+    },
+    {
+       "p_rel_url": "MulissaBruck/Adventure-Works-Data-Engineering-project/refs/heads/main/data/AdventureWorks%20Territory%20Lookup.csv",
+       "p_sink_folder":"AdventureWorks_Territory",
+       "p_file_name":"AdventureWorks_Territory.csv"
+    }
+   ]
+   

@@ -1,0 +1,15 @@
+public public class charFromStrings {
+    public static void main(String[] args) {
+        String text = "Hello, World!";
+
+        // Example: Extract character at index 7
+        char ch = text.charAt(7); // Index starts from 0
+        System.out.println("Character at index 7: " + ch); // Output: W
+
+        // Example: Iterating over all characters in the string
+        System.out.println("Characters in the string:");
+        for (int i = 0; i < text.length(); i++) {
+            System.out.println("Index " + i + ": " + text.charAt(i));
+        }
+    }
+}

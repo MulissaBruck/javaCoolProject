@@ -18,8 +18,7 @@ public class removeDuplicatesListHashSet {
 
         // Initialize an iterator to traverse the list and modify it if needed
         Iterator<String> listIterator = list.iterator();
-
-        // Loop through each element in the list using the iterator
+        // Loop through |each element in the list using the iterator
         while (listIterator.hasNext()) {
             String currentItem = listIterator.next(); // Retrieve the next item in the list
 

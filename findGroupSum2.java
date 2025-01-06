@@ -38,7 +38,7 @@ public class findGroupSum2 {
     public static void main(String[] args) {
         // Test arrays
         int[] a = { 6, 2, 4, 1, 2, 3 };
-        int[] b = { 10, 6, 4, 1, 3, 7, 1, 2, 3, 4 };
+        int[] b = { 10, 6, 4, 1, 2, 7, 1, 2, 3, 4 };
 
         // Call and print results
         System.out.println("Result for array a: " + findGroupSumEqual(a));

@@ -35,7 +35,6 @@ public class sumTest3DistinctElementsPointer {
             // testInt
             while (left < right) {
                 int sum = intArr[i] + intArr[left] + intArr[right];
-
                 if (sum == testInt) {
                     return true; // Found a triplet whose sum equals testInt
                 } else if (sum < testInt) {

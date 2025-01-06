@@ -28,6 +28,6 @@ public class isFactorialSum {
     }
 
     public static void main(String[] args) {
-        findFactorialSums(10); // Finding two numbers whose factorials sum up to 10!
+        findFactorialSums(3); // Finding two numbers whose factorials sum up to 10!
     }
 }

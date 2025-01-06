@@ -1,45 +1,44 @@
 public class frequencyCounter {
 
+    /**
+     * Counts the frequency of each element in the input array and prints the
+     * results.
+     * 
+     * @param arr the input array of integers
+     */
     public static void countElementFrequencies(int[] arr) {
-        // Array to hold the frequency count of each unique element
-        int[] frequencies = new int[arr.length];
-        int uniqueCount = 0; // To track the number of unique elements
-
-        for (int i = 0; i < arr.length; i++) {
-            int count = 0; // Reset count for each element
-            boolean alreadyCounted = false; // Flag to avoid counting duplicates
-
-            // Check if the element has already been counted
-            for (int j = 0; j < uniqueCount; j++) {
-                if (arr[i] == arr[j]) {
-                    alreadyCounted = true; // Mark if the current element has already been counted
-                    break;
-                }
-            }
-
-            // Only count if it's not already counted
-            if (!alreadyCounted) {
-                // Count occurrences of arr[i]
-                for (int j = 0; j < arr.length; j++) {
-                    if (arr[i] == arr[j]) {
-                        count++;
-                    }
-                }
-                // Store the unique element and its frequency
-                frequencies[uniqueCount] = count;
-                uniqueCount++; // Increment the count of unique elements
+        // Determine the maximum value in the array to set the size of the frequency
+        // array
+        int maxValue = 0;
+        for (int i = 0; i < arr.length; i++) { // Expanded for loop
+            int num = arr[i]; // Explicitly access the array element
+            if (num > maxValue) {
+                maxValue = num; // Update maxValue if current number is greater
             }
         }
 
-        // Print the frequencies of unique elements
-        System.out.println("Frequencies:");
-        for (int i = 0; i < uniqueCount; i++) {
-            System.out.println(arr[i] + ": " + frequencies[i]);
+        // Create a frequency array of size (maxValue + 1)
+        int[] frequencyArray = new int[maxValue + 1]; // This assumes the numbers in arr are non-negative
+
+        // Count the frequencies using expanded for loop and frequencyArray[arr[i]]++
+        for (int i = 0; i < arr.length; i++) { // Expanded for loop
+            frequencyArray[arr[i]]++; // Increment the frequency of the element arr[i]
+        }
+
+        // Print the frequencies of each element
+        System.out.println("Element Frequencies:");
+        for (int i = 0; i < frequencyArray.length; i++) { // Iterate over the frequency array
+            if (frequencyArray[i] > 0) { // Only print elements with non-zero frequency
+                System.out.println(i + " : " + frequencyArray[i]); // Print element and its frequency
+            }
         }
     }
 
     public static void main(String[] args) {
-        int[] arr = { 2, 3, 5, 6, 2, 3 }; // Example input array
+        // Example input array
+        int[] arr = { 2, 3, 5, 6, 2, 3 };
+
+        // Count and display element frequencies
         countElementFrequencies(arr);
     }
 }

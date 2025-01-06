@@ -11,7 +11,7 @@ public class RemoveDuplicate {
         for (int i = 0; i < length; i++) {
             for (int j = i + 1; j < length - 1; j++)
 
-                if (a[i] != a[j] && exist(ar, a[i]) == 0) {
+                if (exist(ar, a[i]) == 0) {
                     ar[i] = a[i];
                 }
 

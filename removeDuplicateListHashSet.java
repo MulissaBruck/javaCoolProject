@@ -22,7 +22,9 @@ public class removeDuplicateListHashSet {
             } else {
                 encounteredItems.add(currentItem); // Add the item to the set for future checks
             }
+
         }
+        System.out.println("hash.." + encounteredItems);
     }
 
     // Main method to test the removeDuplicates method

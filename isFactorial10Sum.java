@@ -30,7 +30,7 @@ public class isFactorial10Sum {
 
     public static void main(String[] args) {
 
-        findFactorialSums(1);
+        findFactorialSums(3);
         // System.out.println("Factorial of : " + factorial(1));
     }
 
